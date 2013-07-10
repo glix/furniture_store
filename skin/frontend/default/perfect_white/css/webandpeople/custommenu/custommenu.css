@@ -1,0 +1,143 @@
+#custommenu {
+	position: relative;
+	font-size: 12px; 
+	padding: 0px 0px 0px 5px;
+	width: 985px;
+}
+/*IE7 fix*/
+*:first-child+html #custommenu { 
+ z-index: 998;
+}
+div.menu {
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	height: 23px;
+}
+div.menu a:link, div.menu a:visited {
+	display: block;
+	height: 23px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+div.menu a span {
+	display: block;
+	height: 19px;
+	padding-right: 0px;
+	padding-top: 4px;
+}
+div.menu a span:hover {
+	cursor: pointer;
+}
+div.wp-custom-menu-popup {
+	position: absolute;
+	z-index: 3000;
+	display: none;
+	text-align: left;
+	padding: 0px 10px 10px 10px;
+	border-radius:  0px 0px 3px 3px;
+	border-top: 0;
+}
+div.menu a, div.wp-custom-menu-popup a {
+	text-decoration: none;
+	display:block;
+	cursor: pointer;
+	height: auto;
+	line-height:13px;
+	padding: 0px;
+}
+div.block2 {
+	display: block;
+	padding-top: 10px;
+}
+div.block2 p {
+margin-bottom: 3px;
+line-height: 120%;
+font-size: 11px;
+}
+div.block2 p a {
+	display: inline;
+}
+
+div.column {
+	float: left;
+	width: 150px; /* column width */
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+	
+}
+div.itemSubMenu {
+	margin-left: 0px;
+}
+.clearBoth {
+	clear:both;
+	height: 0;
+	overflow: hidden;
+}
+
+a.level1:link, a.level1:visited {
+	margin-top: 15px;
+}
+div.level1 a {
+	margin-bottom: 5px;
+}
+
+/*BG*/
+#custommenu {
+	background: transparent;
+}
+div.wp-custom-menu-popup {
+	border: 3px solid #8B8B8B;
+	background: #f5f5f5;
+}
+div.menu a:hover, div.menu.active a {
+background: #454545; /* Old browsers */
+
+}
+
+/*FONTS*/
+div.menu {
+	font-weight: normal;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+a.level1:link, a.level1:visited {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: "Trebuchet MS";
+}
+a.level2:link, a.level2:visited {
+	font-weight: normal;
+	font-size: 11px;
+	font-family: "Arial";
+}
+
+/*COLOR*/
+div.menu a:link, div.menu a:visited,
+div.menu a:hover, div.menu.active a  {
+	color: #fff;
+}
+a.level2:link, a.level2:visited {
+	color: #333333;
+}
+a.level2:hover {
+	color: #767676;
+}
+a.level1:link, a.level1:visited {
+	color: #000;
+}
+a.level1:hover {
+	color: #767676;
+}
+ div.wp-custom-menu-popup a.act {
+ 	color: #767676 !important;
+ }
+
+
+
+
+
+

@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mask {
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:9000;
+	background-color:#999;
+	display:none;
+}
+#modalwindow .window {
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+	z-index:9999;
+}
+#modalwindow .dialog_content {
+	padding:20px;
+}
+#modalwindow #dialog {
+	background-color: transparent;
+	min-width:500px;
+}
+.docklink {
+	display: block;
+	height: 15px;
+	padding: 16px 43px 84px 0;
+	background:url('../images/btn_feedback.png') no-repeat;
+	_display:none; /*ie6 non*/
+}
+.bo_docklink a:hover {
+	background:url('../images/btn_feedback_hover.png') no-repeat;
+	padding-right: 50px;
+	opacity: 1;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+.form-quick-contact {
+	border-radius: 5px;
+	background:#ffffff;
+	width:578px;
+	border:1px solid #E1E1E1;
+	padding-left:45px;
+	font-size:12px;
+	text-align:left;
+}
+.form-quick-contact .response {
+	display:block;
+	padding-top:20px;
+	margin-bottom: 10px;
+}
+.form-quick-contact .title {
+	margin-top:20px;
+	padding-bottom:20px;
+}
+.form-quick-contact .title h1 {
+	font-size:22px;
+	font-weight:normal;
+	color: #697073;
+	font-family: "Ubuntu Condensed", Century Gothic, Arial, sans-serif;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 10px;
+}
+.form-quick-contact .radio {
+	color:#56A0AB;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	font-size:13px;
+	padding-bottom:20px;
+}
+.form-quick-contact .radio .radio-box {
+	width:135px;
+	float:left;
+}
+.form-quick-contact .radio .radio-check {
+}
+.form-quick-contact .text {
+	padding:0;
+	float:left;
+	width:90px;
+	line-height:20px;
+	font-size:13px;
+}
+.form-quick-contact .input {
+	float:left;
+	width:300px;
+	line-height:20px;
+}
+.form-quick-contact .text .info-txt {
+	width:100px;
+	padding-bottom:12px;
+	color:#000000;
+	vertical-align:middle;
+}
+.form-quick-contact .input .textbox {
+	margin-bottom:12px;
+	width:250px;
+	border:1px solid #eeeeee;
+	background: #f5f5f5;
+}
+.form-quick-contact .capcha .textbox {
+	width:60px;
+	border:1px solid #E1E1E1;
+}
+.form-quick-contact .capcha .label {
+	float:left;
+}
+.form-quick-contact #security_image {
+	margin-left:5px;
+	margin-top:1px;
+}
+.form-quick-contact .capcha {
+	padding-top:10px;
+	color:#565656;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	margin-bottom:10px
+}
+.form-quick-contact .hm_content {
+	color:#000000;
+	font-weight:bold;
+	font-family:arial, helvetica, sans-serif;
+	margin-bottom:10px
+}
+.form-quick-contact .text-area textarea {
+	border:1px solid #E1E1E1;
+	width: 530px;
+}
+.form-quick-contact .submit {
+	text-align:right;
+	padding:10px 0 10px 10px;
+}
+.form-quick-contact .submit input {
+	vertical-align: top;
+}
+.form-quick-contact .submit a {
+}
+.form-quick-contact .submit a img {
+	border:none
+}
+.form-quick-contact input, .form-quick-contact textarea, .form-quick-contact .error-msg {
+	background: #F5F5F5;
+	border-radius: 3px;
+}
+.form-quick-contact .error-msg {
+	background: #c6c6c6;
+}
+.form-quick-contact .error-msg {
+	border-color: #c6c6c6;
+}
+.quickcontact-submit {
+	background: #697073;
+	color: #ffffff;
+	border: 0;
+	margin-top: 2px;
+	border-radius: 3px;
+	padding: 0px 5px 0px 5px;
+}
+.quickcontact-submit:hover {
+	cursor: pointer;
+}
