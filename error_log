@@ -1,0 +1,120 @@
+[24-Jul-2012 07:22:04] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:04] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:04] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:06] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:07] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:09] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:21] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:22] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:23] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:24] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:25] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:22:31] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:23:43] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:23:45] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
+[24-Jul-2012 07:24:40] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'logiciel_furniture_store.core_file_storage' doesn't exist' in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php:228
+Stack trace:
+#0 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php(228): PDOStatement->execute(Array)
+#1 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement.php(300): Zend_Db_Statement_Pdo->_execute(Array)
+#2 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(479): Zend_Db_Statement->execute(Array)
+#3 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Pdo/Abstract.php(238): Zend_Db_Adapter_Abstract->query('SELECT `e`.* FR...', Array)
+#4 /home/logiciel/public_html/furniture_store/lib/Varien/Db/Adapter/Pdo/Mysql.php(337): Zend_Db_Adapter_Pdo_Abstract->query('SELECT `e`.* FR...', Array)
+#5 /home/logiciel/public_html/furniture_store/lib/Zend/Db/Adapter/Abstract.php(753): Varien_Db_Adapter_Pdo_Mysql->q in /home/logiciel/public_html/furniture_store/lib/Zend/Db/Statement/Pdo.php on line 234
