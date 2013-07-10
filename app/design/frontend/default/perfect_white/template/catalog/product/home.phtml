@@ -1,0 +1,62 @@
+<?php $_productCollection=$this->getLoadedProductCollection() ?>
+<?php if(!$_productCollection->count()): ?>
+<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<?php else: ?>
+<?php $_collectionSize = $_productCollection->count() ?>
+<?php $_columnCount = $this->getColumnCount(); 
+$totalCount= 8;
+if($this->getTotalCount()){
+$totalCount= $this->getTotalCount();
+}
+if($this->getImageWidth() && $this->getImageHeight())
+{
+  $_imageWidth = $this->getImageWidth(); 
+  $_imageHeight = $this->getImageHeight(); 
+}
+  else
+{
+  $_imageHeight = $_imageWidth = $this->getImageSize() ? $this->getImageSize() : 135; 
+}
+?>
+<div class="category-products category-column-count-<?php echo $_columnCount; ?> category-image-size-width<?php echo $_imageWidth; ?>-height<?php echo $_imageHeight; ?>">
+
+    <?php // Grid Mode ?>
+
+    <?php $i=0;$j=1; foreach ($_productCollection as $_product): ?>
+	<?php if($j<=$totalCount): ?>
+        	<?php if ($i++%$_columnCount==0): ?>
+	        <ul class="products-grid">
+	        <?php endif ?>
+        	    <li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+                	<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($_imageWidth,$_imageHeight); ?>" width="<?php echo $_imageWidth; ?>" height="<?php echo $_imageHeight; ?>" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+	                <h2 class="product-name">
+                        <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>">
+                            <?php echo substr($this->htmlEscape($_product->getName()),0,45);?>
+                            <?php 
+                                if(strlen($this->htmlEscape($_product->getName()))>45){
+                                    echo " ..";
+                                }
+                            ?>
+                        </a>
+                    </h2>
+                    <?php echo $this->getPriceHtml($_product, true) ?>
+                    <div class="actions">
+                        <?php if($_product->isSaleable()): ?>
+                            <button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                        <?php else: ?>
+                            <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                        <?php endif; ?>
+                    </div>
+        	    </li>
+		    <?php $j++;?>
+        	<?php if ($i%$_columnCount==0 || $i==$_collectionSize): ?>
+		        </ul>
+	        <?php endif ?>
+	<?php endif ?>
+   <?php endforeach ?>
+        <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+</div>
+<?php endif; ?>
+
+
+

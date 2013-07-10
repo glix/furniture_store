@@ -1,0 +1,43 @@
+<?php
+/**
+ * Product list template
+ *
+ * @see Mage_Catalog_Block_Product_List
+ */
+?>
+<?php 
+
+$_productCollection=$this->getLoadedProductCollection() 
+
+?>
+<?php 
+if($_productCollection->count()): ?>
+
+        <dt class="block-title">
+        <strong style="background:none;"><span><?php echo $this->__('Recently Added')?></span></strong>
+    </dt>
+    <dd class="block-content">
+<?php $_iterator = 0; ?>
+        <ol class="mini-products-list" id="block-popular">
+        <?php foreach($_productCollection as $_item): ?>
+            <li class="item">
+                <div class="product">
+                    <a href="<?php echo $_item->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_item->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_item, 'thumbnail')->resize(48) ?>" width="48" height="48" alt="<?php echo $this->htmlEscape($_item->getName()) ?>" /></a>
+                    <div class="product-details">
+                        <p class="product-name"><a href="<?php echo $_item->getProductUrl() ?>"><?php echo $this->htmlEscape($_item->getName()) ?></a></p>
+                        <?php echo $this->getPriceHtml($_item, true, '-related') ?>
+                        <div class="actions" style="width:75px;">
+                            <?php if($_item->isSaleable()): ?>
+                                <button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_item) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                            <?php else: ?>
+                                <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        <?php endforeach ?>
+        </ol>
+</dd>
+
+<?php endif; ?>
